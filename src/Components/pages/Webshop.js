@@ -26,22 +26,22 @@ function Webshop() {
 
     <div className='flex flex-col'>
 
-      <div className='xl:w-[800px] w-[480px] py-10 '>
+      <div className='xl:w-[800px] w-[322px] ml-[2px] py-10 '>
         <img className='xl:w-full rounded-xl h-full object-contain' 
         src={Web1} alt="#" />
       </div>
 
-      <div className='xl:w-[800px] w-[480px] py-10 '>
+      <div className='xl:w-[800px] w-[322px] ml-[2px] py-10 '>
         <img className='xl:w-full rounded-xl h-full object-contain' 
         src={Web2} alt="#" />
       </div>
 
-      <div className='xl:w-[800px] w-[480px] py-10 '>
+      <div className='xl:w-[800px] w-[322px] ml-[2px] py-10 '>
         <img className='xl:w-full rounded-xl h-full object-contain' 
         src={Web3} alt="#" />
       </div>
 
-      <div className='xl:w-[800px] w-[480px] py-10 '>
+      <div className='xl:w-[800px] w-[322px] ml-[2px] py-10 '>
         <img className='xl:w-full rounded-xl h-full object-contain' 
         src={Web4} alt="#" />
       </div>
@@ -49,11 +49,11 @@ function Webshop() {
     </div>
 
 
-    <div className='bg-black/30  text-white mt-10 xl:w-[500px] w-[475px] ml-2 h-[500px] rounded-xl lg:top-12 lg:sticky lg:right-0'>
+    <div className='bg-black/30  text-white mt-10 xl:w-[500px] w-[330px] ml-2 h-[500px] rounded-xl lg:top-12 lg:sticky lg:right-0'>
     
       <div className='flex flex-row items-center'>
 
-    <p className='text-2xl font-bold'>Ferramenta:</p>
+    <p className='md:text-2xl text-sm font-bold'>Ferramenta:</p>
       <div className='relative  '
          >
             <img
@@ -72,12 +72,12 @@ function Webshop() {
 
     <div className='mt-24 lg:mb-10 mb-5 text-lg px-2'>
     <p className='text-2xl font-bold'>Resumo:</p>
-      <p className='font-semibold'>UpStore foi um projeto "freestyle" não tive nenhuma 
+      <p className='font-semibold text-sm md:text-lg'>UpStore foi um projeto "freestyle" não tive nenhuma 
       inspiração criativa externa e não pensei préviamente no design, ambos os 'produtos' e a sidebar foram feitos
        com uma Array. A principal motivação para criar esse projeto foi me familiarizar com o React.js, achei interessante colocar ele aqui uma vez que, pra mim, ele simboliza meu crescimento e aprendizado  </p>
     </div>
     <a href="https://github.com/bison7gpo/WebShop-Project/tree/master">
-      <div className='hover:cursor-pointer hover:bg-gray-600 flex flex-row bg-gray-700 mx-32 text-white rounded-xl items-center p-2 w-[220px]'>
+      <div className='hover:cursor-pointer hover:bg-gray-600 flex flex-row bg-gray-700 mx-16 md:mx-32 text-white rounded-xl items-center p-2 w-[220px]'>
         <p className='text-lg font-semibold'>Código no Github:</p>
 
         <SocialIcon

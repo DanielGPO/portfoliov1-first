@@ -29,34 +29,34 @@ function Netflix() {
 
     <div className='flex flex-col'>
 
-      <div className='xl:w-[800px] w-[480px] py-10 '>
-        <img className='xl:w-full rounded-xl h-full object-contain' 
+      <div className='xl:w-[800px] w-[322px] ml-[16px] py-10 '>
+        <img className='xl:w-full rounded-md h-full object-contain' 
         src={Net1} alt="Net1" />
       </div>
 
-      <div className='xl:w-[800px] w-[480px] py-10 '>
-        <img className='xl:w-full rounded-xl h-full object-contain' 
+      <div className='xl:w-[800px] w-[322px] ml-[16px] py-10 '>
+        <img className='xl:w-full rounded-md h-full object-contain' 
         src={Net2} alt="#" />
       </div>
 
-      <div className='xl:w-[800px] w-[480px] py-10 '>
-        <img className='xl:w-full rounded-xl h-full object-contain' 
+      <div className='xl:w-[800px] w-[322px] ml-[16px] py-10 '>
+        <img className='xl:w-full rounded-md h-full object-contain' 
         src={Net3} alt="#" />
       </div>
 
-      <div className='xl:w-[800px] w-[480px] py-10 '>
-        <img className='xl:w-full rounded-xl h-full object-contain' 
+      <div className='xl:w-[800px] w-[322px] ml-[16px] py-10 '>
+        <img className='xl:w-full rounded-md h-full object-contain' 
         src={Net4} alt="#" />
       </div>
 
     </div>
 
 
-    <div className='bg-black/30  text-white mt-10 lg:mt-0 xl:w-[500px] w-[475px] ml-2 h-[540px] rounded-xl lg:top-12 lg:sticky lg:right-0'>
+    <div className='bg-black/30  text-white mt-10 lg:mt-0 xl:w-[500px] w-[370px] ml-2 md:h-[590px] h-[500px] rounded-xl lg:top-12 lg:sticky lg:right-0'>
     
       <div className='flex flex-row items-center'>
 
-    <p className='text-2xl font-bold'>Ferramentas:</p>
+    <p className='md:text-2xl text-md md:ml-2 ml-8 font-bold'>Ferramentas:</p>
 
     <div className='relative  '
          >
@@ -83,14 +83,15 @@ function Netflix() {
       </div>
     </div>
 
-    <div className='mt-24 lg:mb-10 mb-5 text-lg px-2'>
-    <p className='text-2xl font-bold'>Resumo:</p>
-      <p className='font-semibold'>Foi Criado no intuito de aprender a usar tailwindcss mas acabei também usando o firebase e useContext para criação de conta e login,
+    <div className='mt-24 lg:mb-10 mb-5 text-lg px-2 w-[340px] md:w-auto ml-4'>
+    <p className='md:text-2xl text-md font-bold'>Resumo:</p>
+      <p className='font-semibold text-sm md:text-lg'>Foi Criado no intuito de aprender a usar tailwindcss mas acabei também usando o firebase e useContext para criação de conta e login,
     também possui uma Route protegida e tentei brincar um pouco colocando o video de introdução da Netflix ao clicar em um dos shows. Bem simples porém muito divertido. 
     Me impressionei com o quão fácil o firebase cria um sistema de criação de conta. Pretendo usar mais vezes no futuro. </p>
     </div>
+
     <a href="https://github.com/bison7gpo/Netflix-clone-Project/tree/master">
-      <div className='hover:cursor-pointer hover:bg-gray-600 flex flex-row bg-gray-700 mx-32 text-white rounded-xl items-center p-2 w-[220px]'>
+      <div className='hover:cursor-pointer hover:bg-gray-600 flex flex-row bg-gray-700 mx-[80px] md:mx-32 text-white rounded-xl items-center p-2 w-[220px]'>
         <p className='text-lg font-semibold'>Código no Github:</p>
 
         <SocialIcon

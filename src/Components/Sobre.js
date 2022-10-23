@@ -7,7 +7,7 @@ function Sobre() {
     whileInView={{opacity: 1}}
     transition={{duration: 1.5}}
     viewport={{once: true}}    
-     className='md:h-[1200px] lg:h-screen h-[1100px] flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
+     className='md:h-[1200px] lg:h-screen h-[1170px] flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
         <h3 className='absolute top-24 hidden md:inline-block uppercase tracking-[20px] text-white'>
             Sobre mim
         </h3>

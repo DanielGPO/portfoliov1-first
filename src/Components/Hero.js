@@ -2,12 +2,13 @@ import React from 'react'
 import {Cursor, useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircles from './BackgroundCircles'
 import {motion} from 'framer-motion'
+
 function Hero() {
 
   const [text, count] = useTypewriter({
     words:[
         ".. Olá, meu nome é Daniel Gomes",
-        ".. Sou um desenvolvedor Front-end autodidata",
+        ".. Sou um desenvolvedor Front-End autodidata",
         "..<Esse é meu Portfólio />",
     ],
     loop: true,
@@ -30,17 +31,17 @@ function Hero() {
       transition={{
         duration: 1.5,
       }}
-      className='absolute bg-gradient-to-r from-green-700 to-slate-700 lg:left-[280px] left-0 lg:w-[800px] mt-[130px] flex flex-row  md:w-[800px] items-center rounded-l-full rounded-r-full'>
-        <img className='h-[150px] pl-1  object-cover w-[150px] rounded-full only:mx-auto' 
+      className='absolute bg-gradient-to-r from-green-700 to-slate-700 lg:left-[280px] left-0 w-[340px] mt-[70px] lg:top-0 flex flex-row  md:w-[800px] items-center rounded-l-full rounded-r-full'>
+        <img className='md:h-[150px] h-[130px] pl-1  object-cover w-[120px] lg:h-[150px]  lg:w-[150px] rounded-full ' 
         src='https://media-exp1.licdn.com/dms/image/D4E03AQFSJfs5-88FqA/profile-displayphoto-shrink_800_800/0/1665158244580?e=1670457600&v=beta&t=S7CM3sNvp6NK6h1c0WlIGuZo0WJ65GtH-joxrr4hiYQ'
          alt='Eu de óculos, hihi' />
         
-        <h1 className='text-4xl lg:text-5xl font-semibold px-10 relative'>
+        <h1 className='text-md md:text-5xl font-semibold px-10 relative'>
            <span className='mr-3 text-slate-200'>{text}</span>
            <Cursor cursorColor='#ffff'/>
         </h1>
       </motion.div>
-    <h2 className='text-sm uppercase absolute bottom-[330px] lg:bottom-[330px] w-[500px] lg:left-[460px] md:left-[150px] left-[47px] text-gray-400 pb-2 tracking-[15px]'>
+    <h2 className='text-sm uppercase absolute bottom-[300px] lg:bottom-[330px] w-[500px] lg:left-[460px] md:left-[250px] left-[42px] text-gray-400 pb-2 tracking-[7px] lg:tracking-[15px]'>
               Software Enginnner
           </h2>
          
