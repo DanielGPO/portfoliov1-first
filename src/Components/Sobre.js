@@ -1,5 +1,7 @@
 import React from 'react'
 import {motion} from 'framer-motion'
+import Eu2 from './assets/Eu2.jpg'
+
 function Sobre() {
   return (
          <motion.div
@@ -21,7 +23,7 @@ function Sobre() {
             duration: 0.9,
         }}
         whileInView={{opacity:1, x: 0}}   
-        src='https://dsm01pap007files.storage.live.com/y4miFM9l5U0RoXhiJ1z6X34b0WAvSwC21HjbiD3safhQZwM1nXoVO0t1bApr0Kksue9VRgpoaT0dzEKqx1-W1LBTqiCo4HmxM1G3eEOuwe5rCgfK4VO0m0JW3QfhABqvHTPgNXEFgP32rMEiex7TUtzUWwvquEP1wq_zJYKJ47Pq3HsifyBRvWsxenSNCQzxmwQlcYeWVeJDPAP6X9zIrgA_Rb3QECPcvYuRoMErzo8Mhc?encodeFailures=1&width=1366&height=647'
+        src={Eu2}
         alt='Eu'
         className='h-56 w-56 mt-[100px] md:mt-0 rounded-full -mb-20 md:mb-0 flex-shrink-0  md:w-64 md:h-[600px] xl:w-[400px] xl:h-[400px] object-cover'
         />
