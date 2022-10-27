@@ -1,6 +1,5 @@
 import React from 'react'
 import {motion} from 'framer-motion'
-import Eu from './assets/Eu.png'
 
 function Sobre() {
   return (
@@ -24,7 +23,7 @@ function Sobre() {
             duration: 0.9,
         }}
         whileInView={{opacity:1, x: 0}}   
-        src={Eu}
+        src='https://media-exp1.licdn.com/dms/image/D4D03AQGc5KudwIt8JQ/profile-displayphoto-shrink_800_800/0/1666877316662?e=1672272000&v=beta&t=UKtbtdDtXCzKt7HSVVVXIG4eodrWkK2EenX3gNoMgoE'
         alt='Eu'
         className='h-56 w-56 mt-[100px] md:mt-0 rounded-full -mb-20 md:mb-0 flex-shrink-0  md:w-64 md:h-[600px] xl:w-[400px] xl:h-[400px] object-cover'
         />
