@@ -2,7 +2,6 @@ import React,{ useRef, useState} from 'react'
 import emailjs from '@emailjs/browser';
 import { AiOutlinePhone, AiOutlineMail, AiFillCheckCircle } from 'react-icons/ai'
 import {BsMap} from 'react-icons/bs'
-import {motion} from 'framer-motion'
 function Contato() {
     const form = useRef();
     const [mail, setmail] = useState(false)
@@ -54,8 +53,8 @@ function Contato() {
         </div>
         <form ref={form} onSubmit={sendEmail} className='flex flex-col space-y-2 w-[310px] md:space-x-2 md:w-fit mx-auto'>
             <div className='flex flex-col md:flex-row space-y-2 md:space-y-0  md:space-x-2'>
-                <input name="client_name"placeholder='Name' className='contactInput' type="text" />
-                <input name="from_name" placeholder='Email' className='contactInput' type="email" />
+                <input name="client_name"placeholder='Name' required className='contactInput' type="text" />
+                <input name="from_name" placeholder='Email' required className='contactInput' type="email" />
             </div>
 
             <input name="subject" placeholder='Assunto' className='contactInput' type="text" />

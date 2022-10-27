@@ -16,7 +16,7 @@ function Netflix() {
     md:text-left flex flex-col  px-5 mx-auto items-center   overflow-x-hidden  h-screen  scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]'>
 
    <h3 className='lg:mx-[400px] w-[483px] xl:w-auto uppercase tracking-[20px] text-gray-500 text-2xl'
-   >-NETFLIX Clone-</h3>
+   >-NETFLIX-</h3>
 
     <div className='flex flex-col lg:flex-row'>
       <Link to='/'>

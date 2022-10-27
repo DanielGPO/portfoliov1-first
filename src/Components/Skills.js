@@ -26,7 +26,7 @@ function Skills() {
             src="https://ui-lib.com/blog/wp-content/uploads/2021/12/nextjs-boilerplate-logo.png" alt="" />
          </div>
          <div className='relative '>
-            <div className='absolute hidden lg:inline-block  md:w-full h-full bg-gray-700/60 opacity-0 hover:opacity-100 text-white rounded-full'><p className='absolute right-0 text-2xl pt-8 pr-10'>Progresso: 78%</p></div>
+            <div className='absolute hidden lg:inline-block  md:w-full h-full bg-gray-700/60 opacity-0 hover:opacity-100 text-white rounded-full'><p className='absolute right-0 text-2xl pt-8 pr-10'>Progresso: 80%</p></div>
             <img
             className='rounded-full border border-gray-500 object-cover w-20 h-20  xl:w-32
              xl:h-32  filter  hover:grayscale'
@@ -54,7 +54,7 @@ function Skills() {
             src="https://firebase.google.com/static/images/brand-guidelines/logo-logomark.png?hl=pt-br" alt="" />
          </div>
          <div className='relative'>
-            <div className='absolute hidden lg:inline-block  md:w-full h-full bg-gray-700/60 opacity-0 hover:opacity-100 text-white rounded-full'><p className='absolute right-0 text-2xl pt-8 pr-10'>Progresso: 82%</p></div>
+            <div className='absolute hidden lg:inline-block  md:w-full h-full bg-gray-700/60 opacity-0 hover:opacity-100 text-white rounded-full'><p className='absolute right-0 text-2xl pt-8 pr-10'>Progresso: 92%</p></div>
             <img
             className='rounded-full border border-gray-500 object-cover w-20 h-20  xl:w-32
              xl:h-32 filter  hover:grayscale'
@@ -68,7 +68,7 @@ function Skills() {
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk03fpMxbjzvgaDz2z3gu5G-9UeqgnNfUdd7gzSo9-er843XxKIG3g46lO1GRUF-L9UWs&usqp=CAU" alt="" />
          </div>
          <div className='relative'>
-            <div className='absolute hidden lg:inline-block  md:w-full h-full bg-gray-700/60 opacity-0 hover:opacity-100 text-white rounded-full'><p className='absolute right-0 text-2xl pt-8 pr-10'>Finalizado</p></div>
+            <div className='absolute hidden lg:inline-block  md:w-full h-full bg-gray-700/60 opacity-0 hover:opacity-100 text-white rounded-full'><p className='absolute right-0 text-2xl pt-8 pr-10'>Progresso: 70%</p></div>
             <img
             className='rounded-full border border-gray-500 object-cover w-20 h-20 xl:w-32
              xl:h-32 filter  hover:grayscale'

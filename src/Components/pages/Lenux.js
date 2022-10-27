@@ -80,7 +80,7 @@ function Lenux() {
     <div className='mt-24 lg:mb-10 mb-5 text-lg px-2'>
     <p className='text-2xl font-bold'>Resumo:</p>
       <p className='font-semibold text-sm md:text-lg'>Um dos meus primeiros projetos no HTML, tinha o intuito de usar Grid e Flexbox na prática, encontrei esse design em um site chamado NicePage e me apaixonei por ele. A maior dificuldade
-    na época foi utilizar o Grid da forma que eu queria, demorou mas consegui. Apesar das ferramentas mais modernas serem React, Angular e outros, eu acho importante mostrar que sei fazer o básico. Meu maior erro durante a criação foi baixar as imagens ao invés de usar urls externos. </p>
+    na época foi utilizar o Grid da forma que eu queria, demorou mas consegui. Apesar das ferramentas mais modernas serem React, Angular e outros, eu acho importante mostrar que sei fazer o básico. </p>
     </div>
     
       <a href="https://github.com/bison7gpo/Project-1/tree/master">

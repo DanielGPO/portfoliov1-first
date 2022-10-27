@@ -1,6 +1,6 @@
 import React from 'react'
 import {motion} from 'framer-motion'
-import Eu2 from './assets/Eu2.jpg'
+import Eu1 from './assets/Eu1.jpg'
 
 function Sobre() {
   return (
@@ -9,8 +9,9 @@ function Sobre() {
     whileInView={{opacity: 1}}
     transition={{duration: 1.5}}
     viewport={{once: true}}    
-     className='md:h-[1200px] lg:h-screen h-[1170px] flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
-        <h3 className='absolute top-24 hidden md:inline-block uppercase tracking-[20px] text-white'>
+     className='md:h-[1200px] pt-5 md:pt-0 lg:h-screen h-[1370px] flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
+
+        <h3 className='absolute top-24 md:top-12 hidden md:inline-block uppercase tracking-[20px] text-white'>
             Sobre mim
         </h3>
 
@@ -23,7 +24,7 @@ function Sobre() {
             duration: 0.9,
         }}
         whileInView={{opacity:1, x: 0}}   
-        src={Eu2}
+        src={Eu1}
         alt='Eu'
         className='h-56 w-56 mt-[100px] md:mt-0 rounded-full -mb-20 md:mb-0 flex-shrink-0  md:w-64 md:h-[600px] xl:w-[400px] xl:h-[400px] object-cover'
         />

@@ -26,7 +26,7 @@ function BackgroundCircles() {
         x: -910,
     }}
     transition={{duration: 3,}}
-    className='absolute top-5 right-0 hidden xl:inline-block'
+    className='absolute top-2 right-0 hidden xl:inline-block'
     >
     <div className='border-b-2  border-white w-[400px] h-4'/>        
     </motion.div>
@@ -40,7 +40,7 @@ function BackgroundCircles() {
         y: -160,
     }}
     transition={{duration: 3,}}
-    className='absolute bottom-14 left-5'
+    className='absolute bottom-16 left-5'
     >
     <div className='border-r-2  border-white h-[400px] w-4'/>        
     </motion.div>

@@ -8,7 +8,7 @@ function Hero() {
   const [text, count] = useTypewriter({
     words:[
         ".. Olá, meu nome é Daniel Gomes",
-        ".. Sou um desenvolvedor Front-End autodidata",
+        ".. Quero ser um desenvolvedor Front-End",
         "..<Esse é meu Portfólio />",
     ],
     loop: true,
