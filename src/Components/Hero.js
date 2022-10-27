@@ -2,7 +2,7 @@ import React from 'react'
 import {Cursor, useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircles from './BackgroundCircles'
 import {motion} from 'framer-motion'
-
+import Eu2 from './assets/Eu2.jpg'
 function Hero() {
 
   const [text, count] = useTypewriter({
@@ -33,7 +33,7 @@ function Hero() {
       }}
       className='absolute bg-gradient-to-r from-green-700 to-slate-700 lg:left-[280px] left-0 w-[340px] mt-[70px] lg:top-0 flex flex-row  md:w-[800px] items-center rounded-l-full rounded-r-full'>
         <img className='md:h-[150px] h-[130px] pl-1  object-cover w-[120px] lg:h-[150px]  lg:w-[150px] rounded-full ' 
-        src='https://media-exp1.licdn.com/dms/image/D4E03AQFSJfs5-88FqA/profile-displayphoto-shrink_800_800/0/1665158244580?e=1670457600&v=beta&t=S7CM3sNvp6NK6h1c0WlIGuZo0WJ65GtH-joxrr4hiYQ'
+        src={Eu2}
          alt='Eu de óculos, hihi' />
         
         <h1 className='text-md md:text-5xl font-semibold px-10 relative'>
